@@ -1,0 +1,39 @@
+
+
+.wrapper{
+    /* what turns on css grid and allows us to access it */
+    display:grid;
+    /* what builds the columns */
+    /* a grid of 12 colums, each one fraction unit */
+    grid-template-columns: repeat(2, 1fr);
+    /* what builds the rows, auto takes the remaining space */
+    grid-template-rows: repeat(3,1fr);
+    /* what you see is what you get section, where we draw the grid with letters */
+    grid-template-areas: 
+    "h h "
+    "m c"
+    "f f ";
+
+}
+
+div {
+    border-style: solid;
+    border-color: red;
+}
+
+.header{
+    /* grid area is what sets the content of the div */
+grid-area: h;
+}
+
+.menu{
+grid-area: m;
+}
+
+.content{
+grid-area: c;
+}
+
+.footer{
+grid-area: f;
+}
