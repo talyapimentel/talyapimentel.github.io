@@ -1,4 +1,18 @@
+body{
 
+    font-family:'Quicksand', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Quicksand', sans-serif;;
+  letter-spacing: 5px;
+}
 
 .wrapper{
     /* what turns on css grid and allows us to access it */
@@ -18,7 +32,7 @@
 
 div {
     border-style: solid;
-    border-color: red;
+   
 }
 
 .header{
