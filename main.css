@@ -1,13 +1,26 @@
 body{
-
+    width:100%;
     font-family:'Quicksand', sans-serif;
+}
+
+.background{
+    background-image: url(palmbackground-01.jpg);
+    background-size: contain;
+    width:100%;
+    background-color: blue;
+}
+
+finalp2-01.{
+
+animation:fadeIn 3s;
 }
 
 .container{
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(2, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 15px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family:'Quicksand', sans-serif;;
